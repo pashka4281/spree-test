@@ -1,7 +1,5 @@
 require "rvm/capistrano"
 require "bundler/capistrano"
-require "whenever/capistrano"
-require 'new_relic/recipes'
 
 load 'deploy/assets'
 
@@ -12,7 +10,7 @@ set :application, 'tshirtua'
 
 # RVM details:
 set :using_rvm, true
-set :rvm_ruby_string, '1.9.3@thirtua'
+set :rvm_ruby_string, '1.9.3@tshirtua'
 
 # SCM details:
 set :scm, 'git'
@@ -29,7 +27,7 @@ set :stack, :passenger
 # server "166.78.137.216", :web, :app, :db, :primary => true
 server "surveyskitchen.com", :web, :app, :db, :primary => true
 set :keep_releases, 3
-set :deploy_to, '/www/surveyskitchen/'
+set :deploy_to, '/www/tshirtua/'
 set :bundle_without, [:test, :development]
 
 ssh_options[:keys] = [File.join(ENV["HOME"], ".ssh", "id_rsa")]
