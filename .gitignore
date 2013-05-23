@@ -13,5 +13,5 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
-/public/spree/
+/public/spree/products
 /config/database.yml

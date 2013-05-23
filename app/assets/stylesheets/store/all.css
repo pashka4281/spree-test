@@ -25,3 +25,13 @@ ul#products li .product-image a img {
 	width: auto !important;
 	height: 150px;
 }
+
+#product-images #main-image img {min-height: auto !important;}
+
+#main-image, #main-image img {
+-webkit-border-radius: 0  !important;;
+-moz-border-radius: 0 !important;;
+-ms-border-radius: 0 !important;;
+-o-border-radius: 0 !important;;
+border-radius: 0 !important;;
+}
