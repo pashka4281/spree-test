@@ -15,6 +15,10 @@ end
 
 Spree.user_class = "Spree::User"
 
+Spree::Config.set(:allow_ssl_in_production => false)
+Spree::Auth::Config[:registration_step] = false;
+Spree::Config[:address_requires_state] = false
+
 customCurrency = {
   priority: 100,
   iso_code: "UAH",

@@ -11,3 +11,17 @@
  *= require_tree .
  *= require store/spree_fancy
 */
+
+
+.product-image a {
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	-ms-border-radius: 0 !important;
+	-o-border-radius: 0 !important;
+	border-radius: 0 !important;
+}
+
+ul#products li .product-image a img {
+	width: auto !important;
+	height: 150px;
+}

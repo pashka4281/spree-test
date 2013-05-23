@@ -1,5 +1,8 @@
 ru:
   shop: 'Товары'
+  devise:
+    failure:
+      invalid: "Неверный адрес электронной почты или пароль"
   
   number:
     # Used in number_to_currency()
@@ -24,3 +27,4 @@ currency_UAH: &usd
         precision: 2
         significant: false
         strip_insignificant_zeros: false
+
