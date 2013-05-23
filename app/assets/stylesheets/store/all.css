@@ -29,9 +29,17 @@ ul#products li .product-image a img {
 #product-images #main-image img {min-height: auto !important;}
 
 #main-image, #main-image img {
--webkit-border-radius: 0  !important;;
--moz-border-radius: 0 !important;;
--ms-border-radius: 0 !important;;
--o-border-radius: 0 !important;;
-border-radius: 0 !important;;
+	-webkit-border-radius: 0  !important;
+	-moz-border-radius: 0 !important;
+	-ms-border-radius: 0 !important;
+	-o-border-radius: 0 !important;
+	border-radius: 0 !important;
+}
+
+.product-image a img {
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	-ms-border-radius: 0 !important;
+	-o-border-radius: 0 !important;
+	border-radius: 0 !important;
 }

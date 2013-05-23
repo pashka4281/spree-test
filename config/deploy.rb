@@ -39,7 +39,8 @@ namespace :deploy do
 
   task :symlink_shared_stuff do
   	{
-		'database_tshirtua.yml' => '/config/database.yml'
+		'database_tshirtua.yml' => '/config/database.yml',
+    'tshirtua_product_images' => '/public/spree/products'
   	}.each do |key, val|
   		run "ln -nfs /shared/#{key} #{release_path}#{val}"
   	end
