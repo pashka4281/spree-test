@@ -34,3 +34,9 @@ customCurrency = {
   iso_numeric: "756"
 }
 Money::Currency.register(customCurrency)
+
+
+Spree.config do |config|
+  # Sets default country to UK
+  config.default_country_id = 211
+end
