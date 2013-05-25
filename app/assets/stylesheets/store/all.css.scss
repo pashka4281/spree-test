@@ -12,6 +12,13 @@
  *= require store/spree_fancy
 */
 
+@import url(http://fonts.googleapis.com/css?family=Forum);
+
+#logo-header{
+	font-family: 'Forum', cursive;
+	font-size: 30px;
+	color: #2568BD;
+}
 
 .product-image a {
 	-webkit-border-radius: 0 !important;
@@ -23,7 +30,7 @@
 
 ul#products li .product-image a img {
 	width: auto !important;
-	height: 150px;
+	height: auto !important;
 }
 
 #product-images #main-image img {min-height: auto !important;}

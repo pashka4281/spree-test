@@ -1,0 +1,11 @@
+<header id="header" class="row" data-hook>
+  <figure id="logo" class="columns seven" data-hook>
+  	<%= link_to "/" do %>
+  		<h1 id="logo-header">T-Shirt-UA</h1>
+  		<h5>Интернет магазин футболок с рисунками ручной работы</h5>
+  	<% end %>
+  </figure>
+  <%= render :partial => '/spree/shared/nav_bar' %>
+  <%= render :partial => '/spree/shared/main_nav_bar' if store_menu? %>
+  <div class="row"><strong> бесплатная доставка по Харькову</strong></div>
+</header>

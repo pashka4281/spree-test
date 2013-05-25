@@ -4,8 +4,8 @@
     <legend><%= t(:billing_address) %></legend>
     <div class="inner" data-hook="billing_inner">
       <p class="field" id="bfirstname">
-        <%= bill_form.label :firstname, 'Имя' %><br />
-        <%= bill_form.text_field :firstname, :class => 'required2' %>
+        <%= bill_form.label :firstname, 'Имя' %><span class="req">*</span><br />
+        <%= bill_form.text_field :firstname, :class => 'required' %>
       </p>
 
       <p class="field" id="baddress1">
